@@ -24,7 +24,7 @@ exports.parse = function (request, callback) {
 			// skip first and last lines (form boundry data)
 			for (var i = 1; i < lines.length - 1; i += 4) {
 				var	name = lines[i].split ("name=\"")[1].split("\"")[0].trim(),
-					value = lines[i+2].trim();
+					value = lines[i + 2].trim();
 
 				httpRequestData[httpRequestData_index] = new Array();
 				httpRequestData[httpRequestData_index]['name'] = name;
