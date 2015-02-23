@@ -13,6 +13,9 @@ To get the username from a GET param http://localhost/?username=yourusername
 
 ## CODE ##
 
+```
+#!node
+
 var http = require('http');
 var httpRequestParser = require('httpRequestParser');
 
@@ -22,3 +25,4 @@ http.createServer(function (req, res) {
 		console.log (httpRequestData[0].username);
 	});
 });
+```
