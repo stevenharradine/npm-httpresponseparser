@@ -1,5 +1,5 @@
 {
-  "name": "httprequestparser",
+  "name": "httpresponseparser",
   "version": "0.0.3",
   "description": "Parses HTTP responses from POST and GET requests",
   "main": "index.js",
