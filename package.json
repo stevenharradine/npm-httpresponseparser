@@ -1,6 +1,6 @@
 {
   "name": "httpRequestParser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parses HTTP responses from POST and GET requests",
   "main": "index.js",
   "scripts": {
