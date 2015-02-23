@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:stevenharradine/linkshare.git"
+    "url": "git@bitbucket.org:stevenharradine/httpresponseparser.git"
   },
   "keywords": [
     "http",
