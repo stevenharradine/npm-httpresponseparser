@@ -1,6 +1,6 @@
 # README #
 
-This package allows you to parse the http POST and GET headers from basic HTTP server.
+This package allows you to parse the http POST and GET headers from the basic HTTP server.
 
 ## Usage ##
 
@@ -16,8 +16,8 @@ To get the username from a GET param http://localhost/?username=yourusername
 ```
 #!node
 
-var http = require('http');
-var httpRequestParser = require('httpRequestParser');
+var http = require('http'),
+    httpRequestParser = require('httpRequestParser');
 
 http.createServer(function (req, res) {
 	httpRequestParser.parse (req, function (httpRequestData) {
