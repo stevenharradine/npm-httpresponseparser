@@ -24,5 +24,5 @@ http.createServer(function (req, res) {
 		// assuming only POST or GET param passed otherwise iterate through the array
 		console.log (httpRequestData[0].username);
 	});
-});
+}).listen(8080);
 ```
